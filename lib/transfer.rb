@@ -36,8 +36,6 @@ def reverse_transfer
     receiver.balance -= @reverse_amount
     @status = 'reversed'
     @reverse_amount = 0
-  else
-    'no'
   end
 end
  
